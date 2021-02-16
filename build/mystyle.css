@@ -63,7 +63,7 @@
     content: none; } }
 
 @page :first {
-  background: url(report-cover.png) no-repeat center;
+  background: url(report-cover4.png) no-repeat center;
   background-size: cover;
   margin: 0; }
 
@@ -141,7 +141,8 @@ html {
       list-style: none;
       padding-left: 0; }
       html body div.toc ul li {
-        border-top: .25pt solid #c1c1c1;
+        /* stupid lines on top of toc-items?
+        border-top: .25pt solid #c1c1c1; */
         margin: .25cm 0;
         padding-top: .25cm; }
         html body div.toc ul li::before {

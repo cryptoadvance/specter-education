@@ -1,0 +1,11 @@
+---
+guides:
+  default:
+    filename: Specter-Training
+    content:
+    - disclaimer
+    - about_formats
+    - bitcoin101
+    - bitcoin201
+    - multisig101
+    - getting_real
