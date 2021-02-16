@@ -45,6 +45,7 @@ __Resources__:
     * Steelplates 
     * Security-Tamper-Proof-Bags
 * Bitcoin10X security!
+* Conclusion for the Enterprise: Multi-vendor-Multisig with Specter-Desktop and Bitcoin-Core.
 
 __Resources__:
 
