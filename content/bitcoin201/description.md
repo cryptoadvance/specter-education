@@ -1,35 +1,7 @@
 # Bitcoin 201
 
-Here we you learn "where the money is stored". Public-Private key cryptography is the foundation and transactions in the blockchain is how money get transfered from one to the other.
 Coming from the individual addresses, you'll learn about Hirarchical Deterministic Wallets and how it relates to the secret you have to finally protect: the seed.
 We'll learn about different 
-
-## Public-/Private key cryptography
-| time   | Form    | remarks |
-|--------|---------|---------|
-| 30mins | L/B     |         |
-
-* symmetric and asymmetric encryption
-* Attestation as special case for asymetric encryption
-* Imagine a crypto-bank: transactions-signing
-
-__Resources__:
-
-* [brainwallet](https://brainwalletx.github.io/#sign) for creating single addresses and signing/verifying messages
-
-## The ledger, transactions, change-addresses and understanding inputs/outputs
-| time   | Form    | remarks |
-|--------|---------|---------|
-| 30mins | L/B     |         |
-
-* The anatomy of the blockchain: chained blocks consisting of transactions
-* the anatomy of a transaction: we can only consume whole inputs, therefore change-addresses
-* Example of a bitcoin-transaction
-
-__Resources__:
-
-* [signing/verifying txs](https://brainwalletx.github.io/#tx)
-
 
 ## HD-Wallets, derivation pathes and address-types
 | time   | Form    | remarks |
@@ -72,10 +44,12 @@ __Resources__:
 * Practical physical security:
     * Steelplates 
     * Security-Tamper-Proof-Bags
+* Bitcoin10X security!
 
 __Resources__:
 
 * [#SmartCustody](http://bit.ly/SmartCustodyBookV101) by Christopher Allen and Shannon Appelcline
+* Bitcoin10x security
 
 ## SingleSig Pennytest
 | time   | Form    | remarks |

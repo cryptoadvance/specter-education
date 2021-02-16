@@ -7,3 +7,8 @@ The Format of the unit gives a better understanding:
 * Workshop-light (WL): The user needs a QR-code based hardware-wallet and a laptop. The specter-instance/fullnode is hosted by cryptoadvance.
 * Workshop-full (WF): The user needs a unix-based Laptop (Mac/Linux) in order to install software and a pruned node (10GB free diskpace necessary) 
 * Discussion (D): The organisation needs to make decisions. Guided discussion.
+* On site (ON): Needs physical presence.
+
+
+## Prerequisites
+* Browsers, laptops and Wifi
