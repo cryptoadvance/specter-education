@@ -1,11 +1,19 @@
 ---
 guides:
-  default:
-    filename: Specter-Training
+  overview:
+    filename: Specter-Training-Overview
+    title: Specter Training Overview
     content:
     - disclaimer
     - about_formats
     - bitcoin101
     - bitcoin201
     - multisig101
-    - getting_real
+    - production_setup
+  training:
+    filename: Specter-Devops-Training
+    title: Specter Devops Training
+    content:
+    - disclaimer
+    - about_formats
+    - deployment-operations
