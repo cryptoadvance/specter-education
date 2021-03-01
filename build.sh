@@ -8,12 +8,16 @@ else
     . ./.env/bin/activate
 fi
 
+echo "CONCATENATING PDFs"
+echo "=================="
+
 # create guides
 python3 scripts/build.py
 
 
 
-
+echo "CONCATENATING PDFs"
+echo "=================="
 
 if ! docker ps | grep libreoffice > /dev/null; then
     echo "creating docker container"
