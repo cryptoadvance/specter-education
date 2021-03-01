@@ -1,4 +1,4 @@
-# Bitcoin Theory for Wallet-Operators
+# Bitcoin 101 for Wallet-Operators
 In this section, you 'll get a rough idea about the things you need to know in order to send and receive funds.
 
 ## Bitcoin Experience

@@ -1,19 +1,31 @@
-# Bitcoin 201
+# Bitcoin 201 for Wallet Operators
 
 Coming from the individual addresses, you'll learn about Hirarchical Deterministic Wallets and how it relates to the secret you have to finally protect: the seed.
 We'll learn about different 
 
-## HD-Wallets, derivation pathes and address-types
+## From the seed to your wallet - theory
+| time   | Form    | remarks |
+|--------|---------|---------|
+| 30mins | L       |         |
+
+* Problem with single addresses
+* Solution: HD-Wallets
+* Understanding address-types, derivation-pathes
+* Understanding xpubs
+
+__Resources__:
+
+* [https://iancoleman.io/bip39/](https://iancoleman.io/bip39/)
+
+## From the mnemonic to your wallet - practise
 | time   | Form    | remarks |
 |--------|---------|---------|
 | 30mins | L/B     |         |
 
-* Problem with single addresses
-* Solution: Generating new addresses out of a master-seed
 * The 12 word Mnemonic
 * the passphrase
 * The resulting seed
-* Get to you wallets: derivation pathes
+* From your Seed to your wallet: deivation Pathes in practise
 
 __Resources__:
 
