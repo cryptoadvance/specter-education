@@ -1,5 +1,5 @@
 # Getting Real - a production setup
-| time   | Form    | remarks |
+| time   | form    | remarks |
 |--------|---------|---------|
 | 3h     | WF/D    |         |
 
@@ -8,28 +8,28 @@ This is a kind of generic description and needs to be adjusted with the decision
 - Set up fresh laptops / server
 - Download & setup pruned Bitcoin Core nodes
 - Download & setup Specter Desktop
-- HWWs setup - Update firmware - test transactions?
+- HWWs setup, update firmware, test transactions
 
-- Generate & Writedown Keys
+- Generate & write down Keys
 - Add devices to Specter Desktop instances
-- Create Multisig Wallet
+- Create multisig wallet
 - Send penny test to multisig wallet
-- Backup Keys on Steelplates
+- Backup keys on Steelplates
 
-- Delete/wipe Multisig & Device on Desktop
-- Recover keys from steelplates
-- Send pennytest from Multisig Wallet
+- Delete/wipe multisig & device on desktop
+- Recover keys from Steelplates
+- Send penny test from multisig wallet
 - Repeat recovery process?
 
-- Download Multisig-Backup-PDF, and put on USB & Paper
-- Prepare Security-Tamper-Proof-Bags with Steelplates & Multisig backups.
+- Download multisig backup-PDF, and put it on USB & paper
+- Prepare tamper proof-bags with Steelplates & multisig backups.
 - Additional copies of multisig backups to store where?
 - Where to store the backups? BayernLB? Degussa safe desposit boxes?
 
 # Open Questions
 - What kind of computers? 
 - How many instances of Specter? Hosted? Each user one instance?
-- Which hardware wallets? Specter, Cobo...but Coldcard?
-- Key generation? Dices? On device?
+- Which hardware wallets?
+- Key generation? Dice? On device?
 - Key tests - How to check if the keys still work?
 - On a daily operational basis: Who keeps the HWWs with the private keys, and where?

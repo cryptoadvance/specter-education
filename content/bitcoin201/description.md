@@ -4,7 +4,7 @@ Coming from the individual addresses, you'll learn about hierarchical determinis
 We'll learn about different ***what?***
 
 ## From the seed to your wallet - theory
-| time   | Form    | remarks |
+| time   | form    | remarks |
 |--------|---------|---------|
 | 30min  | L       |         |
 
@@ -18,7 +18,7 @@ __Resources__:
 * [https://iancoleman.io/bip39/](https://iancoleman.io/bip39/)
 
 ## From the mnemonic to your wallet - practice
-| time   | Form    | remarks |
+| time   | form    | remarks |
 |--------|---------|---------|
 | 30min  | L/B     |         |
 
@@ -32,7 +32,7 @@ __Resources__:
 * [https://iancoleman.io/bip39/](https://iancoleman.io/bip39/)
 
 ## Security, risk management and opsec
-| time   | Form    | remarks |
+| time   | form    | remarks |
 |--------|---------|---------|
 | 1h     | L       |         |
 
@@ -64,7 +64,7 @@ __Resources__:
 * [Bitcoin10x security guide](https://btcguide.github.io/) by Michael Flaxman
 
 ## SingleSig penny test
-| time   | Form    | remarks |
+| time   | form    | remarks |
 |--------|---------|---------|
 | 1h     | WL      |         |
 

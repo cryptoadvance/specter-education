@@ -4,7 +4,7 @@ The final decision does not need to happen yet, though (only after the pratical 
 
 
 ## Backing up a multisignature
-| time   | Form    | remarks |
+| time   | form    | remarks |
 |--------|---------|---------|
 | 1h     | WL      |         |
 
@@ -18,7 +18,7 @@ __Resources__:
 * [Ben about Multisig-Backups](https://twitter.com/_benkaufman/status/1344686741513449474)
 
 ## Operational models
-| time   | Form    | remarks |
+| time   | form    | remarks |
 |--------|---------|---------|
 | 1.5h   | L       |         |
 
@@ -54,7 +54,7 @@ __Resources__:
 
 
 ## Reasonable quora, passphrases, practical backup management
-| time   | Form    | remarks |
+| time   | form    | remarks |
 |--------|---------|---------|
 | 1h     | L/D     |         |
 

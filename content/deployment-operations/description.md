@@ -1,5 +1,5 @@
 ## Deployment options overview
-| time   | Form    | remarks |
+| time   | form    | remarks |
 |--------|---------|---------|
 | 30min  | L/D     |         |
 
@@ -16,7 +16,7 @@
 * Backup/restore
 
 ## Specter administration
-| time   | Form    | remarks |
+| time   | form    | remarks |
 |--------|---------|---------|
 | 30min  | L/D     |         |
 
