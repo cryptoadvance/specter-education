@@ -3,27 +3,27 @@
 |--------|---------|---------|
 | 30min  | L/D     |         |
 
-* Which binary deployments are available
-  * platform-specific binaries
-  * pip-installation
+* Which binary deployment options are available
+  * platform specific binaries
+  * pip installation
   * docker
-* What are dis-/advantages of the different options
-* How do i verify integrity in all of these?
+* What are pros & cons of the different options?
+* How do I verify integrity with of all of these?
 * Bitcoin Core deployment options:
-  * fullnode vs. core-node
-  * necessary config-adjustemnts
-  * Considerations if deployed in on different systems
+  * Fullnode vs. core-node ***Archival vs. pruned?***
+  * Necessary config adjustemnts
+  * Considerations if deployed on different systems
 * Backup/restore
 
-## Specter Administration
+## Specter administration
 | time   | Form    | remarks |
 |--------|---------|---------|
 | 30min  | L/D     |         |
 
-* Specter multisig- capabilities
-  * non
-  * Password-protection
-  * RPC-Auth
-  * Multiuser
-* Separation of wallets and Devices in a multi-user-scenario
+* Specter multisig capabilities
+  * non ***???***
+  * Password protection
+  * RPC auth
+  * Multi-user
+* Separation of wallets and devices in a multi-user scenario
 * Tor-based hidden service

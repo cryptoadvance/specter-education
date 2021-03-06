@@ -1,49 +1,49 @@
-# Bitcoin 101 for Wallet-Operators
-In this section, you 'll get a rough idea about the things you need to know in order to send and receive funds.
+# Bitcoin 101 for Wallet Operators
+In this section, you'll learn how to send and receive funds.
 
 ## Bitcoin Experience
 | time | Format  | remarks |
 |------|---------|---------|
-| 2h   | ON      |         |
+| 1h   | ON      | pen &   |
+|      |         | paper   |
 
-The bitcoin-experience is a fun competitive management game in order to understand bitcoin mining an dthe blockchain. Unfortunately it's not possible to play it online.
-
+The Bitcoin Experience is a fun and interactive simulation to understand the most fundamental principles of Bitcoin. You'll learn intuitively how a distributed network works and how consensus is reached in such a network. You also get to mine yourself and solve proof of work puzzles. To illustrate the incentive schemes, there will also be prizes to win. 
 
 ## Blocks, confirmations and fees
 | time | Format  | remarks |
 |------|---------|---------|
 | 1h   | L/B     |         |
 
-* Bitcoin timetable from cypherpunk to now
+* Bitcoin timetable from cypherpunks to today ***NECESSARY? DOESN'T FIT*** 
 * Mining blocks, the race for a hash, mempool and transaction selection
-* Blocks consists of transactions: A Ledger
-* Understanding fees and confirmations as settlement-confidence
+* Blocks consists of transactions: A ledger
+* Understanding fees and confirmations
 * Q&A
 
 __Resources:__
 * [sha256-hash-calculator](https://emn178.github.io/online-tools/sha256.html)
 
-## Public/Private Cryptography and transaction signing
+## Public & private key cryptography and transaction signing
 | time   | Form    | remarks |
 |--------|---------|---------|
 | 1h     | L/B     |         |
 
-* symmetric and asymmetric encryption
-* Signatures as special case for asymetric encryption
-* Imagine a crypto-bank: transactions-signing
+* Symmetric and asymmetric encryption
+* Signatures as a special case of asymmetric encryption
+* Imagine a crypto-bank: transaction-signing ***what does this mean?***
 
 __Resources__:
 * [ROTx encryption online-tool](https://www.thomas-kuehn.de/geocaching/rot.php)
 * [brainwallet](https://brainwalletx.github.io/#sign) for creating single addresses and signing/verifying messages
 
-## The ledger, transactions, change-addresses and understanding inputs/outputs
+## The ledger, transactions and understanding inputs & outputs
 | time   | Form    | remarks |
 |--------|---------|---------|
-| 30mins | L/B     |         |
+| 30min  | L/B     |         |
 
 * The anatomy of the blockchain: chained blocks consisting of transactions
-* the anatomy of a transaction: we can only consume whole inputs, therefore change-addresses
-* Example of a bitcoin-transaction
+* The anatomy of a transaction: inputs, outputs, change, spending conditions
+* Example of a bitcoin transaction
 
 __Resources__:
 

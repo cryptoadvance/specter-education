@@ -1,6 +1,6 @@
-# Multisignature and it's challenges
-At the end the of this section, the participants should have an idea about the challenges of multisig, different operational and deployment options and maybe have preferences in one or the other direction.
-The final decision does not need to happen yet but after the pratical part.
+# Multisignature and its challenges
+At the end of this section, the participants should have an idea about the challenges of multisig, different operational and deployment options and maybe have some tentative setup preferences. 
+The final decision does not need to happen yet, though (only after the pratical part).
 
 
 ## Backing up a multisignature
@@ -8,10 +8,10 @@ The final decision does not need to happen yet but after the pratical part.
 |--------|---------|---------|
 | 1h     | WL      |         |
 
-* Collecting Devices
+* Collecting devices
 * Creating the wallet
-* The Specter-Backup-PDF
-* Durability of PDF-Backup: Store it redundantly!
+* The Specter-backup-PDF
+* Durability of the PDF backup: Store it redundantly!
 * More implications for Multisig
 
 __Resources__:
@@ -20,49 +20,49 @@ __Resources__:
 ## Operational models
 | time   | Form    | remarks |
 |--------|---------|---------|
-| 1,5h   | L       |         |
+| 1.5h   | L       |         |
 
-* Dis-/Advantages of different quora
-    * 3/5 or 2/3 --> depends on availability of personell and amount to store
+* Dis-/advantages of different quora
+    * 3/5 or 2/3 --> depends on staff availability and the amount to store
 * Passphrases in order to further split-up
-    * In specter you can add the passphrase independently of the mnemonic
-    * Not stritcly necessary but might be a good opportunity to split responsibility further up
-* Hardwarewallets and supply-chain attacks, the following devices are recommended:
+    * You can add the passphrase independently of the mnemonic
+    * Not strictly necessary but might be a good opportunity to further share responsibility
+* Hardware wallets, the following devices are recommended:
     * Specter-DIY
     * Coldcard (UX is not very convenient)
-    * Cobowallet
-* Seed-creation Entropy:
-  * Specter-DIY has coin-based entropy addition (physical coin-flipping)
-  * Add dice-rolls (coldcard / cobowallet v1.2.0)
-* Fullnode vs. pruned-nodes
-  * pruned-node discouraged (for restore only utxo-scan is not enough for enterprise purposes))
-* Operating specter-instances/Core
+    * Cobo Vault
+* Seed creation:
+  * Specter DIY can add user entropy (coin flipping)
+  * Add dice rolls (Coldcard / Cobo Vault v1.2.0)
+* Full node vs. pruned nodes
+  * Pruned node not recommended (not enough for enterprise purposes)
+* Operating Specter instances/Core node
   * Options:
-    * specter/node in the cloud
-    * specter/node on laptops (one or many)
-    * specter/node on a node-appliance or server (needs Tor hidden Service )
+    * Specter/node in the cloud
+    * Specter/node on laptops (one or many)
+    * Specter/node on a node-appliance or server (needs Tor hidden service)
   * Recommendation:
     * One laptop per person with fullnode
-      * Recommendation: Mac Book Pro 13 Zoll, 2 TB SSD-HD, fullnode-installation
-* Trezor/Physical Security:
+      * Recommendation: Mac Book Pro 13 Zoll, 2 TB SSD-HD, full node installation
+* Physical security and vaults:
     * Storage of the backups/passphrases
     * Recommendation: 
-        * Each Backup in it's own Trezor
-        * If you use passphrases, use own trezors
+        * Each Backup in its own vault or at least a small locker
+        * If you use passphrases, use additional vaults/lockers for them
   * Recommendation: [Steelplates](http://bitcoinseedbackup.com/)
 
 
 
-## Reasonable quora, passphrases, practical Backup-management
+## Reasonable quora, passphrases, practical backup management
 | time   | Form    | remarks |
 |--------|---------|---------|
 | 1h     | L/D     |         |
 
-* Which quorum is the correct one for this organisation?
-* Which hardwarewallets should be used?
-* How are the backups created and custodied?
-* Where are specter-instances operated (Laptop/Server/Cloud)?
-    * Fullnodes of pruned-nodes?
+* Which quorum is the correct one for the organisation?
+* Which hardware wallets should be used?
+* How are the backups created and stored?
+* Where are Specter instances operated (laptop/server/cloud)?
+    * Full nodes of pruned-nodes?
 * Answers: List them here.
 
-And the end of this section an idea for , one or more Quora should have been discussed and roughly placed to store devices and backups should be known.
+At the end of this section, some quora setups should have been discussed and ideas to store devices and backups should have been developed.

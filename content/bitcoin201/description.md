@@ -1,88 +1,87 @@
 # Bitcoin 201 for Wallet Operators
 
-Coming from the individual addresses, you'll learn about Hirarchical Deterministic Wallets and how it relates to the secret you have to finally protect: the seed.
-We'll learn about different 
+Coming from the individual addresses, you'll learn about hierarchical deterministic wallets and how all this relates to the secret you have to protect at the end of the day: the seed.
+We'll learn about different ***what?***
 
 ## From the seed to your wallet - theory
 | time   | Form    | remarks |
 |--------|---------|---------|
-| 30mins | L       |         |
+| 30min  | L       |         |
 
 * Problem with single addresses
-* Solution: HD-Wallets
-* Understanding address-types, derivation-pathes
+* Solution: HD wallets
+* Understanding address types, derivation paths
 * Understanding xpubs
 
 __Resources__:
 
 * [https://iancoleman.io/bip39/](https://iancoleman.io/bip39/)
 
-## From the mnemonic to your wallet - practise
+## From the mnemonic to your wallet - practice
 | time   | Form    | remarks |
 |--------|---------|---------|
-| 30mins | L/B     |         |
+| 30min  | L/B     |         |
 
-* The 12 word Mnemonic
-* the passphrase
+* The 12 word mnemonic
+* The passphrase
 * The resulting seed
-* From your Seed to your wallet: deivation Pathes in practise
+* From your seed to your wallet: derivation paths in practice
 
 __Resources__:
 
 * [https://iancoleman.io/bip39/](https://iancoleman.io/bip39/)
 
-## Security, Risk-management and Opsec
+## Security, risk management and opsec
 | time   | Form    | remarks |
 |--------|---------|---------|
 | 1h     | L       |         |
 
-* Reasons for Hardwarewallets: Security
-* Reasons for Multisig: Resilience
-* Reasons for your own fullnode: Privacy
-* Reasons for different vendor-multisig: Supply chain-attacks
-* Running Internet-connected stuff: Security first
-* Reasons to get paranoid:
+* Reasons for hardware wallets: security
+* Reasons for multisig: resilience
+* Reasons for your own fullnode: privacy
+* Reasons for different vendor-multisig: supply chain-attacks
+* Running internet connected-stuff: security first
+* Reasons to pay attention:
     * [laser-microphones](https://en.wikipedia.org/wiki/Laser_microphone)
     * [god-mode-unlocked](https://www.youtube.com/watch?v=_eSAF_qT_FY)
     * [supply-chain-attacks](https://en.wikipedia.org/wiki/Supply_chain_attack)
-* Risk-modeling:
-    * Loss by Acts of God
-    * Loss by Computer Error
-    * Loss by Crime/Theft
-    * Loss by Crime/OtherAttacks
-    * Loss by Government
-    * Loss by Misstakes
+* Risk modeling:
+    * Loss by acts of god
+    * Loss by computer error
+    * Loss by crime/theft/other attacks
+    * Loss by seizure
+    * Loss by mistakes
     * Privacy related problems
 * Practical physical security:
-    * Steelplates 
-    * Security-Tamper-Proof-Bags
-* Bitcoin10X security!
-* Conclusion for the Enterprise: Multi-vendor-Multisig with Specter-Desktop and Bitcoin-Core.
+    * Steel plates 
+    * Tamper proof-bags
+* Bitcoin10X security! ***Link or what do you want to say here?***
+* Conclusion for enterprises: Multi vendor-multisig with Specter Desktop and Bitcoin Core.
 
 __Resources__:
 
-* [#SmartCustody](http://bit.ly/SmartCustodyBookV101) by Christopher Allen and Shannon Appelcline
-* Bitcoin10x security
+* [Smart Custody](http://bit.ly/SmartCustodyBookV101) by Christopher Allen and Shannon Appelcline
+* [Bitcoin10x security guide](https://btcguide.github.io/) by Michael Flaxman
 
-## SingleSig Pennytest
+## SingleSig penny test
 | time   | Form    | remarks |
 |--------|---------|---------|
 | 1h     | WL      |         |
 
-A specter-diy is needed for this exercise.
+A Specter DIY is needed for this exercise.
 
 * Creating a seed
-  * additional entropy
-  * passphrase?!
-* Importing the device into specter-desktop
+  * Additional entropy
+  * Passphrase
+* Importing the device into Specter Desktop
 * Creating the wallet
-  * the backup-PDF
-* Creating/verifying receive-addresses
+  * The backup-PDF
+* Creating/verifying receive addresses
 * Receiving funds (confirmations)
 * Sending transactions 
 * RBF and "Child pays for parent"
 
 __Resources__:
 
-* Specter-cloud
+* Specter Cloud
 * https://coinfaucet.eu/en/btc-testnet/
