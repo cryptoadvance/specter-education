@@ -1,3 +1,4 @@
 .env
 build/*.pdf
 build/*.html
+*.DS_Store
