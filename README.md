@@ -8,16 +8,13 @@ Build the html-pdf-files via `build.sh`.
 
 If you are on MacOS:
 
-* The shell command pdfunite might not be availabe:
-brew install popper
+* The shell command pdfunite might not be availabe:  
+`brew install popper`  
+	See: https://superuser.com/questions/897670/no-available-formula-for-pdfunite-in-homebrew
 
-See: https://superuser.com/questions/897670/no-available-formula-for-pdfunite-in-homebrew
-
-* If you run into dependencies issues with build.py, chances are that WeasyPrint 
-is lacking some libraries:
-brew install cairo pango gdk-pixbuf libffi
-
-See: https://weasyprint.readthedocs.io/en/stable/install.html
+* If you run into dependencies issues with build.py, chances are that WeasyPrint is lacking some libraries:  
+`brew install cairo pango gdk-pixbuf libffi`  
+	See: https://weasyprint.readthedocs.io/en/stable/install.html
 
 
 
