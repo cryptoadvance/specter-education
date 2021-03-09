@@ -8,8 +8,8 @@ else
     . ./.env/bin/activate
 fi
 
-echo "CONCATENATING PDFs"
-echo "=================="
+echo "CREATING PDFs"
+echo "============="
 
 # create guides
 python3 scripts/build.py

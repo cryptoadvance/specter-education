@@ -3,7 +3,7 @@ At the end of this section, the participants should have an idea about the chall
 The final decision does not need to happen yet, though (only after the pratical part).
 
 
-## Backing up a multisignature
+## Creating a multisignature wallet
 | time   | form    | remarks |
 |--------|---------|---------|
 | 1h     | WL      |         |
