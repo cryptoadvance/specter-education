@@ -20,9 +20,15 @@ echo "CONCATENATING PDFs"
 echo "=================="
 
 if ! docker ps | grep libreoffice > /dev/null; then
-    echo "creating docker container"
-    docker_hash=$(docker run -d --name libreoffice -p 8100:8100 hdejager/libreoffice-api)
+    if ! docker ps -a | grep libreoffice > /dev/null; then
+        echo "creating docker container"
+        docker_hash=$(docker run -d --name libreoffice -p 8100:8100 hdejager/libreoffice-api)
+        
+    else
+        docker start libreoffice
+    fi
 fi
+docker_hash=libreoffice
 echo "ODP-conversion"
 cd content
 for dir in $(ls -d */); do

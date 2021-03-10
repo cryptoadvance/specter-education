@@ -17,7 +17,7 @@ __Resources__:
 
 * [https://iancoleman.io/bip39/](https://iancoleman.io/bip39/)
 
-## From the mnemonic to your wallet - practice
+## From the mnemonic to your wallet - practice / pennytest
 | time   | form    | remarks |
 |--------|---------|---------|
 | 30min  | L/B     |         |
@@ -26,6 +26,7 @@ __Resources__:
 * The passphrase
 * The resulting seed
 * From your seed to your wallet: derivation paths in practice
+* Recreating on specter / Pennytest
 
 __Resources__:
 
