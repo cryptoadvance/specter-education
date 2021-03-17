@@ -28,6 +28,7 @@ if ! docker ps | grep libreoffice > /dev/null; then
         docker start libreoffice
     fi
 fi
+pdf_file_list=""
 docker_hash=libreoffice
 echo "ODP-conversion"
 cd content
@@ -39,6 +40,8 @@ for dir in $(ls -d */); do
         cd ..
         continue
     fi
+    pdf_file_list="$pdf_file_list $(echo $dir | sed 's/\/$//g').pdf"
+    echo "pdf_file_list now $pdf_file_list"
     for file in $(ls *.odp 2> /dev/null); do
         plain_name=$(basename $file .odp)
         echo "--> Converting ${file}"
@@ -59,3 +62,6 @@ for dir in $(ls -d */); do
     rm *.pdf
     cd ..
 done
+
+cd ../build
+zip Specter-Training-material.zip Specter-Training-Overview.pdf $pdf_file_list

@@ -1,17 +1,18 @@
-# Multisignature and its challenges
+# Multisignature 101 for Wallet Operators
 At the end of this section, the participants should have an idea about the challenges of multisig, different operational and deployment options and maybe have some tentative setup preferences. 
 The final decision does not need to happen yet, though (only after the pratical part).
 
 
-## Creating a multisignature wallet
+## Creating a Multisignature wallet
 | time   | form    | remarks |
 |--------|---------|---------|
 | 1h     | WL      |         |
 
-* Collecting devices
+* Collecting devices (Cobo / Specter)
 * Creating the wallet
-* The Specter-backup-PDF
-* Durability of the PDF backup: Store it redundantly!
+* Importance of the Backup PDF
+* Signing transactions (Cobo / Specter)
+* 
 * More implications for Multisig
 
 __Resources__:
