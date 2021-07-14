@@ -64,4 +64,13 @@ for dir in $(ls -d */); do
 done
 
 cd ../build
+sha256sum *.pdf > SHA256SUMS.txt
 zip Specter-Training-material.zip Specter-Training-Overview.pdf $pdf_file_list
+sha256sum Specter-Training-material.zip >> SHA256SUMS.txt
+
+if ! [ -z "$1" ]; then
+    rm El_*.txt
+    cp $1 build
+    sha256sum El_*.txt >> SHA256SUMS.txt
+    zip ../Specter-Training-material.zip Specter-Training-material.zip SHA256SUMS.txt
+fi
