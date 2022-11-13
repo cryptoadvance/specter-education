@@ -1,5 +1,5 @@
 ## About Formats
-For trainings, it's quite important to specify the prerequisites the participants need to fullfill and also manage expectations of what they can expect.
+I order to properly being able to execute the different modules, it's quite important to specify the prerequisites the participants need to fullfill and also manage expectations of what they can expect.
 The format of the respective unit gives a better understanding:
 
 * Lecture (L): Slides consumption only. For some content, it might be beneficial if the participants can visit websites.
@@ -9,6 +9,3 @@ The format of the respective unit gives a better understanding:
 * Discussion (D): The organisation needs to make decisions. Guided discussions.
 * On site (ON): Needs physical presence.
 
-
-## Prerequisites
-* Browsers, laptops and Wifi

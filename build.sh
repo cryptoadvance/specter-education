@@ -74,3 +74,10 @@ if ! [ -z "$1" ]; then
     sha256sum El_*.txt >> SHA256SUMS.txt
     zip ../Specter-Training-material.zip Specter-Training-material.zip SHA256SUMS.txt
 fi
+
+scp bitcoin201.pdf ssh-14424-kim@learn2prog.de:webseiten/bitcoinops/download
+scp bitcoin101.pdf ssh-14424-kim@learn2prog.de:webseiten/bitcoinops/download
+scp multisig101.pdf ssh-14424-kim@learn2prog.de:webseiten/bitcoinops/download
+scp Specter-Training-Overview.pdf ssh-14424-kim@learn2prog.de:webseiten/bitcoinops/download
+scp Specter-Training-Overview.html ssh-14424-kim@learn2prog.de:webseiten/bitcoinops/download
+

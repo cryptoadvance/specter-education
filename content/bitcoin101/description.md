@@ -1,19 +1,11 @@
 # Bitcoin 101 for Wallet Operators
-In this section, you'll learn how to send and receive funds.
-
-## Bitcoin Experience
-| time | format  | remarks     |
-|------|---------|-------------|
-| 1h   | ON      | pen & paper |
-
-The Bitcoin Experience is a fun and interactive simulation to understand the most fundamental principles of Bitcoin. You'll learn intuitively how a distributed network works and how consensus is reached in such a network. You also get to mine yourself and solve proof of work puzzles. To illustrate the incentive schemes, there will also be prizes to win. 
+In this section, you'll learn the fundamentals of the bitcoin blockchain in order to understand how storage of funds work in general and how transaction signing works.
 
 ## Blocks, confirmations and fees
 | time | format  | remarks |
 |------|---------|---------|
-| 1h   | L/B     |         |
+| 30mins   | L/B     |         |
 
-* Bitcoin timetable from cypherpunks to today ***NECESSARY? DOESN'T FIT*** 
 * Mining blocks, the race for a hash, mempool and transaction selection
 * Blocks consists of transactions: A ledger
 * Understanding fees and confirmations
