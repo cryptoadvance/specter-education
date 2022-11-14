@@ -4,16 +4,20 @@ import markdown
 import datetime
 import yaml
 
-with open('content.yaml', 'r') as content:
-  try:
-    content = yaml.safe_load(content)
-  except yaml.YAMLError as exc:
-    print(f"issues with parsing content.yaml: {exc}")
-    exit(1)
+from create_index import website
+
+def load_content():
+  with open('content.yaml', 'r') as content:
+    try:
+      content = yaml.safe_load(content)
+    except yaml.YAMLError as exc:
+      print(f"issues with parsing content.yaml: {exc}")
+      exit(1)
+    return content
 
 
 def process_guide(content, guide):
-  ''' processes on guide at a time '''
+  ''' processes one guide at a time '''
   guide_markdown="# Table of Contents \n\n[TOC]\n\n"
   pure_html = ""
   for section in content["guides"][guide]["content"]:
@@ -49,7 +53,7 @@ def process_guide(content, guide):
           https://specter.solutions
         </address>
         <address>
-          v0.1 - {hash}
+          v0.2 - {hash}
           {date}
         </address>
       </article>
@@ -67,6 +71,10 @@ def process_guide(content, guide):
   
   HTML(f'./build/{filename}.html').write_pdf(f'./build/{filename}.pdf')
 
-for key, value in content["guides"].items():
-  print(f"Creating Guide {key}")
-  process_guide(content,key)
+
+if __name__ == "__main__":
+  content = load_content()
+  for key, value in content["guides"].items():
+    print(f"Creating Guide {key}")
+    process_guide(content,key)
+  website(content)

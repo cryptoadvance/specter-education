@@ -1,0 +1,23 @@
+<html>
+    <body >
+        <h1>Specter Education</h1>
+        A very basic idea of how Usage of Specter can be improved via training material.<br>
+        This has been created via <a href="https://github.com/cryptodvance/specter-eduction">https://github.com/cryptodvance/specter-eduction</a> (Fork me!).
+        Currently, the following guides are available:<br>
+        {% for guide in content["guides"].values() %}
+        <ul>
+            <li><a href="{{guide.filename}}.html">{{guide.filename}}</a> (description)</li>
+            
+                <ul>
+                    {% for section in guide["content"] %}
+                        <li><a href="{{section}}.pdf">{{section}}.pdf</a></li>
+                    {% endfor %}
+                </ul>
+            
+        </ul>
+        
+        {% endfor %}
+        
+    </body>
+
+</html>

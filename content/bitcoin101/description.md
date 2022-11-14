@@ -17,7 +17,7 @@ __Resources:__
 ## Public & private key cryptography and transaction signing
 | time   | form    | remarks |
 |--------|---------|---------|
-| 1h     | L/B     |         |
+| 30m    | L/B     |         |
 
 * Symmetric and asymmetric encryption
 * Signatures as a special case of asymmetric encryption

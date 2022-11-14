@@ -2,4 +2,6 @@
 build/*.pdf
 build/*.html
 build/*.zip
+build/SHA256SUMS.txt
 *.DS_Store
+**/__pycache__

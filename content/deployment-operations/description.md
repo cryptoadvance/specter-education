@@ -1,7 +1,7 @@
 ## Deployment options overview
 | time   | form    | remarks |
 |--------|---------|---------|
-| 30min  | L/D     |         |
+| 30min  | L/D     |    only partially implemented     |
 
 * Which binary deployment options are available
   * platform specific binaries
@@ -18,7 +18,7 @@
 ## Specter administration
 | time   | form    | remarks |
 |--------|---------|---------|
-| 30min  | L/D     |         |
+| 30min  | L/D     |    not yet existing     |
 
 * Specter multisig capabilities
   * non ***???***

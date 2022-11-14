@@ -68,6 +68,10 @@ sha256sum *.pdf > SHA256SUMS.txt
 zip Specter-Training-material.zip Specter-Training-Overview.pdf $pdf_file_list
 sha256sum Specter-Training-material.zip >> SHA256SUMS.txt
 
+cd ..
+
+python3 scripts/create_index.py
+
 if ! [ -z "$1" ]; then
     rm El_*.txt
     cp $1 build
@@ -75,9 +79,6 @@ if ! [ -z "$1" ]; then
     zip ../Specter-Training-material.zip Specter-Training-material.zip SHA256SUMS.txt
 fi
 
-scp bitcoin201.pdf ssh-14424-kim@learn2prog.de:webseiten/bitcoinops/download
-scp bitcoin101.pdf ssh-14424-kim@learn2prog.de:webseiten/bitcoinops/download
-scp multisig101.pdf ssh-14424-kim@learn2prog.de:webseiten/bitcoinops/download
-scp Specter-Training-Overview.pdf ssh-14424-kim@learn2prog.de:webseiten/bitcoinops/download
-scp Specter-Training-Overview.html ssh-14424-kim@learn2prog.de:webseiten/bitcoinops/download
+cd build
 
+scp * ssh-14424-kim@learn2prog.de:webseiten/bitcoinops/education
