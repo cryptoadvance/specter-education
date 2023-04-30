@@ -71,6 +71,7 @@ sha256sum Specter-Training-material.zip >> SHA256SUMS.txt
 cd ..
 
 python3 scripts/create_index.py
+cp templates/forkme_right_gray_6d6d6d.svg build
 
 if ! [ -z "$1" ]; then
     rm El_*.txt

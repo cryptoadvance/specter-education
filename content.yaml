@@ -10,6 +10,13 @@ guides:
     - bitcoin201
     - multisig101
     - production_setup
+  overview_de:
+    filename: Specter-Training-Ueberblick
+    title: Specter Training Überblick
+    content:
+    - disclaimer
+    - about_formats
+    - bitcoin101_de
   training:
     filename: Specter-Devops-Training
     title: Specter Devops Training
