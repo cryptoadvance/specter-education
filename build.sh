@@ -82,4 +82,4 @@ fi
 
 cd build
 
-scp * ssh-14424-kim@learn2prog.de:webseiten/bitcoinops/education
+# scp * ssh-14424-kim@learn2prog.de:webseiten/bitcoinops/education
